@@ -1,0 +1,114 @@
+/*Lesson Selection*/
+.LessonSelection_A{
+	background-color: white;
+	width: fit-content;
+	margin-left:auto;
+	margin-right:auto;
+	margin-top: 0px;
+	position: relative;
+	border: 0px;
+	display: none;
+	overflow: hidden;
+}
+#LessonScroll{
+	margin: 20px;
+}
+.collapsible{
+	background-color: #E99BAC; 
+	display:block;
+	min-width: 400px;
+	width: 41.1%;
+	margin-left: auto;
+	margin-right: auto;
+	height: 80px;
+	font-family: 'Oswald', sans-serif;
+	font-weight: 700;
+	font-size: 20px;
+	border: 0px;
+}
+#BackgroundImage_A{
+	display: block;
+	margin-left:auto;
+	margin-right:auto;
+	border: 0px;
+	border-radius: 25px;
+}
+/*Highlight Positioning*/
+#Link_A_Clef{
+	width: 57px;
+	height: 160px;
+	top: 20px;
+	left: 36px;
+}
+#Link_A_Staff{
+	width: 588px;
+	height: 91px;
+	top:53px;
+	left: 19px;
+	z-index:0;
+}
+#Link_A_KeySignature{
+	width: 35px;
+	height: 57px;
+	top: 60px;
+	left: 110px;
+}
+#Link_A_TimeSignature{
+	width: 40px;
+	height: 100px;
+	top: 50px;
+	left: 155px;
+}
+#Link_A_Notes_1{
+	width: 200px;
+	height: 95px;
+	top: 85px;
+	left: 235px;
+}
+#Link_A_Notes_2{
+	width: 80px;
+	height: 95px;
+	top: 55px;
+	left: 490px;
+}
+figure a{
+	position: absolute;
+	background-color: black;
+	opacity: 0;	
+	z-index: 1;
+}
+figure a:visited{
+	position: absolute;
+	background-color: black;
+	opacity: 0;
+}
+figure a:hover{
+	position: absolute;
+	background-color: CornflowerBlue;
+	opacity: 0.3;
+}
+figure a:active{
+	position: absolute;
+	background-color: black;
+	opacity: 0;
+}
+/*Description Text*/
+#LessonDescription_A{
+	margin-left: auto;
+	margin-right: auto;
+	width: 500px;
+	height: 100px;
+}
+#LessonDescriptionText_A{
+	font-family: 'Open Sans', sans-serif;
+	color: #3A405A;
+}
+.FirstLesson:hover ~ #LessonDescription_A > #LessonDescriptionText_A:after{
+	content: "Go to First Lesson with the Staff, Clefs and Basic Note Reading";
+}
+.SecondLesson:hover ~ #LessonDescription_A > #LessonDescriptionText_A:after{
+	content: "Go to Second Lesson With Time Signatures and Note Values";
+}
+.ThirdLesson:hover ~ #LessonDescription_A > #LessonDescriptionText_A:after{
+	content: "Go to Third Lesson With Expanded Note Reading (doesn't work)";
+}

@@ -1,0 +1,217 @@
+/*General Styling*/
+body {
+	margin:0;
+	background-color: #ADA8B6;
+}
+header {
+	color: white;
+	text-align:center;
+	background-color: #3A405A;
+	font-family: 'Oswald', sans-serif;	
+	margin-top: 0;
+	border: 1px solid #3A405A;	
+}
+/*General Styling*/
+
+/*Navigation Bar*/
+#FirstButton {
+	float: left;
+	background-color: #3A405A;
+	width: 33%;
+}
+#ClickedFirstButton {
+	float: left;
+	background-color:#1d1e2c;
+	width: 33%;
+}
+#SecondButton {
+	float: left;
+	background-color:#3A405A;
+	width: 34%;
+}
+#ClickedSecondButton {
+	float: left;
+	background-color:#1d1e2c;
+	width: 34%;
+}
+#ThirdButton {
+	float: right;
+	background-color:#3A405A;	
+	width: 33%;
+}
+#ClickedThirdButton {
+	float: right;
+	background-color:#1d1e2c;
+	width: 33%;
+}
+nav h2{
+	color: white;
+	text-align: center;
+	font-family: 'Roboto Slab', serif;
+	height: 50px;		
+	padding-top:7px;
+	padding-bottom: 7px;
+	margin: 0px;
+	box-sizing: border-box;
+	border: 1px solid black;
+}
+/*Navigation Bar*/
+
+/*General Content*/
+#Content{
+	margin-left: auto;
+	margin-right: auto;
+}
+/*General Content*/
+
+/*Index.html*/
+#ImageTop{
+	max-width: 50%;
+	height: auto;
+}
+
+div.DescriptionContainer{
+	width: 50%;
+	padding-top: 23.1%;
+	position: relative;
+	float: right;	
+	background-color: #CECFC7;
+}	
+#DescriptionText{
+	color: black;
+	float:right;			
+	font-family: 'Open Sans', sans-serif;
+	box-sizing: border-box;
+	font-size: 2vw;		
+	position: absolute;
+	top: 5px;
+	left: 10px;
+	bottom: 45px;
+	right: 10px;
+}
+#Lessons{
+	float: left;
+	width: 70%;
+	height: 300px;	
+	border: 3px solid black;
+	background-color: #E99BAC;
+	box-sizing: border-box;
+}
+.ContentTitle{
+	text-align: center;
+	font-family: 'Oswald', sans-serif;
+}
+.ContentDescription{
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+.LessonsImage{
+	width: 30%;
+	height: 300px;
+	margin: 0px;
+	box-sizing: border-box;
+}
+#Exercises{
+	float: right;	
+	width: 70%;
+	height: 300px;	
+	border: 3px solid black;
+	background-color: #B7CDB6;
+	box-sizing: border-box;
+}
+#Exercises > p{text-align: center; font-family: 'Open Sans', sans-serif;}
+#Lessons > p{text-align: center; font-family: 'Open Sans', sans-serif;}
+#AboutSection{
+	width: 100%;
+	background-color:#1d1e2c;
+	border: 3px solid black;
+}
+.Table{
+	border: 3px solid black;
+	margin:auto;
+}
+tr > td.Description{
+	border: 2px solid black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: clamp(9.2px, 1.2vw, 14px);
+	box-sizing: border-box;
+	width: 400px;
+}
+tr > td.tableTitle{
+	border: 2px solid black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: clamp(9.2px, 1.2vw, 14px);
+	box-sizing: border-box;
+	width: 230px;
+}
+tr > td.Link{
+	border: 2px solid black;
+	font-family: 'Open Sans', sans-serif;
+	font-size: clamp(9.2px, 1.2vw, 14px);
+	box-sizing: border-box;
+	width: 230px;
+}
+/*Index.html*/
+
+/*General Footer*/
+.About{
+	color:white;
+	position:relative;
+}
+#AboutSection > h1{
+	text-align:center;
+	font-family: 'Roboto Slab', serif;
+}
+#AboutSection > h2{
+	left:10px;
+	font-family: 'Oswald', sans-serif;
+}
+#AboutSection > p{
+	left:20px;
+	text-align:left;
+	font-family: 'Open Sans', sans-serif;
+	width:90%;
+}
+#AboutSection{
+	color: #3A405A;
+}
+li > a{display:block;}
+li{
+	display:inline-block;
+	margin-left: 10px;
+}
+#Icon_List{list-style: none;}
+#FacebookIcon{
+	background: url('../images/icon_list.png') no-repeat -182px -91px;
+	width: 33px;
+	height: 32px;
+	border-radius: 90px;
+}
+#FacebookIcon:hover {
+	background: url('../images/icon_list.png') no-repeat -182px -17px;
+	width: 33px;
+	height: 32px;
+}
+#TwitterIcon{
+	background: url('../images/icon_list.png') no-repeat -296px -91px;
+	width: 33px;
+	height: 33px;
+	border-radius: 90px;
+}
+#TwitterIcon:hover {
+	background: url('../images/icon_list.png') no-repeat -296px -16px;
+	width: 33px;
+	height: 33px;
+}
+#GithubIcon{
+	background: url('../images/icon_list.png') no-repeat -412px -91px;
+	width: 32px;
+	height: 33px;
+	border-radius: 90px;
+}
+#GithubIcon:hover {
+	background: url('../images/icon_list.png') no-repeat -412px -16px;
+	width: 32px;
+	height: 33px;
+}
+/*General Footer*/
